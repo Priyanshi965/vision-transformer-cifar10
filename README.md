@@ -73,8 +73,10 @@ So the ViT underperforming here isn't a bug — it's the expected behavior, and 
 
 ## Results & figures
 
-- `vit_training_curves.png` — train/val accuracy and loss per epoch
-- `vit_confusion_matrix.png` — per-class performance on the test set
+<img width="1136" height="470" alt="vit_graph" src="https://github.com/user-attachments/assets/b422fc41-c710-4d15-8128-1d7c85b27479" />
+— train/val accuracy and loss per epoch
+<img width="717" height="633" alt="vit_confusion_metrix" src="https://github.com/user-attachments/assets/a16a7364-e03f-40ab-b94c-105007557bfd" />
+— per-class performance on the test set
 
 ---
 
