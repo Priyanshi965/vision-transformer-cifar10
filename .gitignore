@@ -1,0 +1,36 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Model weights & large artifacts (regenerate by running the notebook)
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.pth
+*.npz
+
+# Datasets (CIFAR-10 downloads automatically via keras.datasets)
+data/
+cifar-10-batches-py/
+*.tar.gz
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local environment secrets
+.env
